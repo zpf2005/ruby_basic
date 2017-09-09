@@ -1,0 +1,8 @@
+i=9
+j=9
+i.times do |t|
+  print "\n"
+  j.times do |r|
+    print "#{(t+1)} * #{(r+1)} = ",  (t+1) * (r+1)
+  end
+end
